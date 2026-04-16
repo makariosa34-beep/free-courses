@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Contact table</title>
+        <link rel="stylesheet" href="contact.css" />
+    </head>
+    <body>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p>Feel free to contact us anytime</p>
+
+            <div class="contact-container">
+                <form onsubmit="sendMessage(event)">
+                    <input type="text" id="name" placeholder="Your Name" required />
+
+                    <input type="email" id="email" placeholder="Your Email" required />
+
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
